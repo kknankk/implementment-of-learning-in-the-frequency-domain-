@@ -188,8 +188,12 @@ def main():
 
         print('\nEpoch: [%d | %d] LR: %f' % (epoch + 1, args.epochs, state['lr']))
         # train_loss,top1_acc, train_acc = train(train_loader1, model, criterion, optimizer, epoch, use_cuda)
-        train_top1_acc,train_top5_acc, train_loss = train(train_loader1, model, criterion, optimizer, epoch, use_cuda, batch_logger)
-        val_top1_acc,val_top5_acc, val_loss = test(val_loader1, model, criterion, optimizer, epoch, use_cuda, batch_logger)
+        # train_top1_acc,train_top5_acc, train_loss = train(train_loader1, model, criterion, optimizer, epoch, use_cuda, batch_logger)
+        # val_top1_acc,val_top5_acc, val_loss = test(val_loader1, model, criterion, optimizer, epoch, use_cuda, batch_logger)
+        
+        train_loss,train_top1_acc,train_top5_acc = train(train_loader1, model, criterion, optimizer, epoch, use_cuda, batch_logger)
+        val_loss,val_top1_acc,val_top5_acc = test(val_loader1, model, criterion, optimizer, epoch, use_cuda, batch_logger)
+
 
         # train_loss_top1,train_loss_top5, train_acc = train(train_loader1, model, criterion, optimizer, epoch, use_cuda)
         # test_loss_top1,test_loss_top5, test_acc = test(val_loader1, model, criterion, epoch, use_cuda)
