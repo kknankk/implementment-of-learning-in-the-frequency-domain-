@@ -11,5 +11,5 @@ dataset folder and main folder were modified by myself.
 I used the torch-dct package to perform 8x8 DCT transformations and extract components of the same frequency, replacing the jpeg2dct package.
 And I added the training part.
 
-##training model
+## training model
 python main/train_val.py --gpu-id 2,3  --arch ResNetDCT_Upscaled_Static -d /data/ke/tiny-imagenet-200
