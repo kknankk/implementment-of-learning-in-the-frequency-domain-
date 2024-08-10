@@ -1,0 +1,12 @@
+numpy
+Pillow
+matplotlib
+# jpeg2dct
+# sklearn
+scikit-learn
+PyTurboJPEG
+tensorboardX
+opencv-python
+lmdb
+pyarrow
+scikit-image
