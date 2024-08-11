@@ -1,6 +1,6 @@
 # Implementment of Learning in the Frequency Domain
 
-This repository contains the implementation of learning techniques in the frequency domain. The code includes methods and models for processing images using frequency domain transformations (Discrete Cosine Transform (DCT)).
+This repository contains the implementation of learning techniques in the frequency domain. The code includes methods and models for processing images using frequency domain transformations (Discrete Cosine Transform (DCT)).I used Tiny-imagenet dataset:https://www.kaggle.com/datasets/akash2sharma/tiny-imagenet
 
 ## Acknowledgements
 
